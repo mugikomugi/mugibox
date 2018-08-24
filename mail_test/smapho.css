@@ -1,0 +1,216 @@
+/* ====== スマートフォン用の設定 ====== */
+@media only screen and (max-width:599px) {
+body {
+	background-size: contain;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+#wrapper {
+	width: 98%;
+	margin: 0 auto;
+}
+img {
+	width: 90%;
+	height: auto;
+}
+/*----------------
+雲アニメ
+-----------------*/
+#header .cloud img:first-of-type {
+	top: 60px;
+	left: 0;
+	width: 30%;
+}
+#header .cloud img:nth-of-type(2) {
+	top: 16px;
+	left: 100px;
+	width: 30%;
+}
+#header .cloud img:nth-of-type(3) {
+	top: 80px;
+	left: 250px;
+	width: 30%;
+}
+#header p {
+	top: 40px;
+	left: 12px;
+}
+#header p img {
+	width: 50%;
+}
+/*----------------
+メインコンテンツ
+-----------------*/
+#main_contents {
+	padding-top: 150px;
+}
+#main_contents #remark_text {
+	width: 90%;
+	min-height: 200px;
+	background: #fff url(images/corner_flower.png) 2px 2px no-repeat;
+	background-size: 20%;
+	margin: 0 auto 20px auto;
+}
+#main_contents #remark_text p {
+	padding: 30px 10px 20px 30px;
+}
+#main_contents>h2 img {
+	width: 80%;
+}
+#main_contents .gallery h2,#main_contents .column h2 {
+	width: 180px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+#main_contents .gallery h2 img,#main_contents .column h2 img {
+	width: 20%;
+}
+/*-------------------
+ギャラリーコンテンツ右かたより
+---------------------*/
+#main_contents .gallery .counterclockwise {
+	width: 80%;
+	height: 60%;
+	margin: 0 auto 16px auto;
+}
+#main_contents .gallery .counterclockwise img {
+	width: 90%;
+	padding: 10px 15px;	
+}
+#main_contents .gallery .counterclockwise span {
+	top: -20px;
+	right: -30px;
+}
+#main_contents .gallery .counterclockwise span img {
+	width: 50%;
+}
+/*------------------
+メモ
+--------------------*/
+#main_contents .gallery dl {
+	width: 95%;
+	margin: 30px auto 30px auto;
+	font-size: 11px;
+}
+
+#main_contents .gallery dl dt {
+	width: 40px;
+}
+#main_contents .gallery dl dd {
+	width: 100%;
+}
+/*-------------------
+ナビゲーション
+---------------------*/
+#main_contents nav ul {
+	width: 96%;
+	line-height: 60px;
+	left: 2%;
+	margin-left: 0;
+}
+#main_contents nav ul li a {
+	width: 100%;
+	background-size: 20%;
+	padding-left: 16px;
+}
+#main_contents nav ul li a:hover {
+	font-size: 12px;
+}
+/*-------------------
+ギャラリーコンテンツ左かたより
+---------------------*/
+#main_contents .gallery .clockwise {
+	width: 80%;
+	height: 60%;
+	margin: 0 auto 16px auto;
+}
+#main_contents .gallery .clockwise img {
+	width: 90%;
+	padding: 10px 15px;
+}
+#main_contents .gallery .clockwise span {
+	top: -20px;
+	left: -40px;
+}
+#main_contents .gallery .clockwise span img {
+	width: 50%;
+}
+#main_contents .gallery .cloud_anime {
+	display: none;
+}
+/*-------------------
+コラム
+---------------------*/
+#main_contents .column ul {
+	width: 300px;
+	margin: 40px auto;
+}
+#main_contents .column ul li {
+	margin: 0 0 40px 0;
+}
+/*-------------------
+申し込みフォーム
+---------------------*/
+#main_contents #inquiry {
+	width: 95%;
+	margin:0 auto 80px auto;
+}
+#main_contents #inquiry h2,#main_contents #inquiry_confirm h2 {
+	width: 300px;
+	font-size: 18px;
+	margin: 20px 0 20px 0;
+}
+#main_contents #inquiry h2 img,#main_contents #inquiry_confirm h2 img {
+	width: 16%;
+} 
+#main_contents #inquiry table {
+	margin: 30px 0 16px 0;
+}
+#main_contents #inquiry table th {
+	width: 30%;
+}
+#main_contents #inquiry input[type="text"] {
+	width: 98%;
+	padding: 0 5px;
+}
+#main_contents #inquiry textarea {
+	width: 98%;
+	height: 200px;
+	padding: 5px;
+}
+#main_contents #inquiry input[type="submit"] {
+	width: 120px;
+	font-size: 14px;
+	margin-left: 140px;
+}
+/*-------------------
+申し込みフォーム確認
+---------------------*/
+#main_contents #inquiry_confirm {
+	width: 90%;
+	margin: 20px 0 150px 0;
+	font-size: 16px;
+}
+#main_contents #inquiry_confirm p {	
+	margin: 20px 0 0 40px;
+}
+
+/*-------------------
+social アイコン
+---------------------*/
+ #social {
+	text-align: left;
+	padding: 20px 30px 0  10px;
+}
+#social img {
+	width: 10%;
+}
+/*-------------------
+ページトップへ
+---------------------*/
+#page_top .to_top {
+	bottom: 30px;
+}
+
+
+}
